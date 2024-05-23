@@ -1,0 +1,70 @@
+
+
+body {
+    margin:0px;
+    padding:0px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "News Cycle";
+    animation: animate 10s ease-in-out infinite;
+    
+}
+
+@keyframes animate{
+    0%,100%{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar1.jpg);
+        background-size: cover;
+    }
+    25%{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar3.png);
+        background-size: cover;
+    }
+    50%{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar4.png);
+        background-size: cover;
+    }
+    75%{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(image/gambar1.jpg);
+        background-size: cover;
+    }
+}
+
+
+h1 {
+    margin-bottom: 0;
+    font-size: 90px;
+    -webkit-text-stroke: 2px black;
+}
+
+center {
+   margin: 5px;
+   
+}
+ 
+button {
+    background: transparent;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color:inherit ;
+}
+
+.spasial:hover{
+    background: white;
+    color:black;
+}
+
+.tabular:hover{
+    background: white;
+    color:black;
+}
